@@ -19,10 +19,10 @@ function Routes() {
   return (
     <>
 
-        <Navbar bg="info" fixed="top" className="justify-content-center border-bottom border-3 border-danger">
+        <Navbar bg="dark" fixed="top" className="justify-content-center ">
           <div className="nav">
-            <Navbar.Brand className="heading bg-danger p-2 border border-3 border-white" style={{ color: 'white' }} onClick={() => history.push("/Home")}>Home</Navbar.Brand>
-            <Navbar.Brand className="heading bg-danger p-2 border border-3 border-white" style={{ color: 'white' }} onClick={() => history.push("/Blog")}> Mobiles </Navbar.Brand>
+            <Navbar.Brand className="navbtn" style={{ color: 'white',fontSize:'25px' }} onClick={() => history.push("/Home")}>Home</Navbar.Brand>
+            <Navbar.Brand className="navbtn" style={{ color: 'white',fontSize:'24px' }} onClick={() => history.push("/Blog")}> Mobiles </Navbar.Brand>
           </div>
         </Navbar>
 
